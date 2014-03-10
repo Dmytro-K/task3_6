@@ -20,6 +20,11 @@ typedef unsigned int   size_t;
 #define _SIZE_T_DEFINED
 #endif
 
+/**
+ * @brief Sorts array of double numbers.
+ * @param [in, out] arr Start of target array.
+ * @param [in] count Array size in elements.
+ */
 void Sort(double *arr, size_t count);
 
 #endif /* TASK3_6_FUNCS_H */

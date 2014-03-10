@@ -13,8 +13,8 @@ int main( void )
 	h = rand() % 10 + 1;
 	w = rand() % 10 + 1;
 
-	arr = malloc( h*sizeof( double* ) );
-	arr[0] = malloc( h*w*sizeof( double ) );
+	arr = (double**)malloc( h*sizeof( double* ) );
+	arr[0] = (double*)malloc( h*w*sizeof( double ) );
 
 	for( i = 1; i < h; i++ )
 	{
